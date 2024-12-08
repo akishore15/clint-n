@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt install git
+sudo ufw allow 85/tcp
 git clone https://github.com/akishore15/clint-n.git --p 85
 echo "GIT CLONED, MAPPED AT localhost:85"
 echo "CONTINUE [Y / N]"
